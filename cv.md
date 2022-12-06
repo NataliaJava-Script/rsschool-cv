@@ -46,13 +46,17 @@ function makeUpperCase(str) {
 ---
 Design engineer in an international organization - 5 years
 
+[My first Git project](https://NataliaJava-Script.github.io/rsschool-cv/cv)
+
 ## **Education**
 ---
 * Vologda State University, Russia
 * Сourses [HTML Academy](https://htmlacademy.ru/) (HTML, CSS)
 * Practice [freecodecamp](https://www.freecodecamp.org/) (HTML, CSS, JS)
 * [RS Schools](https://rs.school/) Course «JavaScript/Front-end. Stage 0» (in progress)
+
 ## **Languages**
+
 ---
 English | German | Russian
 :---: | :---: | :---:
