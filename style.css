@@ -3,9 +3,9 @@ html {
 }
 
 :root {
-    --blue-color: #24305E;
-    --ligth-blue-color: #374785;
-    --cornflower-color: #A8D0E6;
+    --blue-color: #3b4d61;
+    --ligth-blue-color: #02010a;
+    --cornflower-color: #6b8b8c;
   }
 
   @font-face {
@@ -29,7 +29,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+    }
   
   .container-centered {
     margin: 20px auto;
@@ -37,7 +37,7 @@ html {
     font-family: "Playfair_Display", sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    background-color: #CCCCCC;
+    background-color: #ef9d10;
     box-shadow: 6px 6px 35px -1px rgba(0, 0, 0, 0.23);
   }
 
@@ -68,7 +68,7 @@ html {
   }
   .nav-list a:hover {
     background-color: var(--cornflower-color);
-  }
+    }
   .nav-list a:active {
     color: var(--blue-color);
     text-decoration: none;
@@ -174,16 +174,16 @@ html {
   }
 
   
-  .right-column .about-myself .subheader {
+  .right-column .about-summary .subheader {
     margin-top: 0;
   }
   
-  .about-myself p {
+  .about-summary p {
     margin-bottom: 12px;
     margin-left: 40px;
   }
   
-  .about-myself p:last-of-type {
+  .about-summary p:last-of-type {
     margin-bottom: 0;
   }
   
@@ -224,13 +224,17 @@ html {
     margin-bottom: 10px;
     color: var(--ligth-blue-color);
   }
+
+  q {
+    color: var(--ligth-blue-color);
+  }
   
   .right-column img.score-img {
     display: block;
     margin: 0 auto;
   }
   
-  .code examples p {
+  .code p {
     margin-left: 45px;
   }
   
@@ -246,7 +250,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #CCCCCC;
     background-color: var(--blue-color);
   }
