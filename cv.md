@@ -1,7 +1,7 @@
 # ***Natalia Kuznetcova***
  Junior Dev 
 
-![Foto](foto.jpg)
+![Foto](assets/img/foto.jpg)
 
 ## **Contacts for communication**
 ---
