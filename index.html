@@ -4,34 +4,48 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rsschool-cv-html</title>
+    <title>NataliaJava-Script CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
  </head>
  <body>
+    <header>
+            <nav class="container-centered">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+             </ul>
+          </nav>         
+    </header>
     <div class="container-centered">
         <div class="two-columns">
           <div class="left-column">
-            <header>
-                <img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/foto.jpg" alt="Foto" width="200" height="200">
-                <h1>Natalia Kuznetcova</h1>
-                <h2>Junior Dev</h2>
-            </header>
             <main>
-                <section class="contacts">
+               <figure class="figure-left-colums">
+                 <img src="assets/img/foto.jpg" alt="Foto" width="300" height="300">
+                 <h1>Natalia Kuznetcova</h1>
+                 <h2>Junior Dev</h2>
+               </figure>
+                 <section class="contacts" id="contacts">
                     <h3>Contacts for communication</h3>
                     <ul>
-                        <li><img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/icon-email.png" alt="icon email" width="25" height="25">
+                        <li><img src="assets/img/icon-email.png" alt="icon email" width="36" height="25">
                         <p>svnata989@gmail.com</p>
                         </li>
-                        <li><img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/discord-logo.png" alt="discord-logo" width="25" height="25">
+                        <li><img src="assets/img/discord-logo.png" alt="discord-logo" width="36" height="18">
                             <p>NataliaJava#6595</p>
                         </li>
-                        <li><img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/github-logo.png" alt="github-logo" width="25" height="25">
+                        <li><img src="assets/img/github-logo.png" alt="github-logo" width="36" height="36">
                             <p>NataliaJava-Script</p>
                         </li>
                     </ul>
                 </section>
-                <section class="skills">
+                <section class="skills" id="skills">
                     <h3>Skills</h3>
                     <ul>
                         <li>HTML5, CSS3</li>
@@ -42,7 +56,7 @@
                         <li>Engineering programs: Tekla Structures,AutoCAD, Revit, Kompas3D, Renga, SCAD, Robot Structural Analysis</li>
                      </ul>
                     </section>
-                <section class="languages">
+                <section class="languages" id="languages">
                     <h3>Languages</h3>
                     <ul>
                         <li>
@@ -62,9 +76,9 @@
             </main>
           </div>
           <aside class="right-column">
-           <section class="myself">
+           <section class="summary" id="summary">
             <div class="subheader">
-                <img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/people-logo.png" alt="Muself" width="60" height="50">
+                <img src="assets/img/people-logo.png" alt="Muself" width="120" height="60">
                 <h3>Brief information about yourself</h3>
             </div>
             <p> I have a degree in the construction industry. Now I work as a design engineer. When designing in BIM, TEKLA had to independently create parametric models, structural units, and set up tables.</p>
@@ -72,29 +86,32 @@
             <p>Now I am actively learning English and self-learning programming.</p>
             <q>The great aim of education is not knowledge but action.</q>
            </section>
-           <section class="experience">
+           <section class="experience" id="experience">
             <div class="subheader">
-                <img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/experience.jpg" alt="experience logo" width="60" height="50">
+                <img src="assets/img/experience.png" alt="experience logo" width="120" height="80">
                 <h3>Experience</h3>
             </div>
             <p>Design engineer in an international organization - 5 years</p>
-            <p>My first Git project</p><a href="//NataliaJava-Script.github.io/rsschool-cv/cv">SV Markdown</a>
+            <p>My first Git project: <a href="//NataliaJava-Script.github.io/rsschool-cv/cv">SV Markdown</a></p>
             </section>
-           <section class="courses">
+           <section class="courses" id="courses">
             <div class="subheader">
-                <img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/courses.png" alt="courses" width="80" height="60">
+                <img src="assets/img/courses.png" alt="courses" width="120" height="60">
                 <h3>Courses</h3>
             </div>
             <ul>
-                <li><a href="https://htmlacademy.ru/">Сourses HTML Academy</a>(HTML, CSS)
+                <li>
+                    <a href="https://htmlacademy.ru/">Сourses HTML Academy</a>(HTML, CSS)
                 </li>
-                <li><a href="https://www.freecodecamp.org/">Practice freecodecamp</a>(HTML, CSS, JS)</li>
-                <li><a href="https://rs.school/">RS Schools</a>Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                <li>
+                    <a href="https://www.freecodecamp.org/">Practice freecodecamp</a>(HTML, CSS, JS)</li>
+                <li>
+                    <a href="https://rs.school/">RS Schools</a>Course «JavaScript/Front-end. Stage 0» (in progress)</li>
             </ul>
            </section>
-           <section class="code examples">
+           <section class="code" id="code">
             <div class="subheader">
-                <img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/code.png" alt="code logo" width="80" height="60">
+                <img src="assets/img/code.png" alt="code logo" width="120" height="60">
             <h3>Code examples</h3>
             </div>
             <p><strong>Convert a Number to a String!</strong>
@@ -116,12 +133,12 @@
     </div>
     <footer>
         <a class="my githab" href="https://github.com/NataliaJava-Script">
-            <img class="git logo" src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/github-logo.png" alt="github-logo" width="50" height="50">
+            <img class="git logo" src="assets/img/github-logo.png" alt="github-logo" width="50" height="50">
             <p>My GitHub</p>
         </a>
         <p>2022</p>
         <a href="https://rs.school/js/">
-        <img src="https://raw.githubusercontent.com/NataliaJava-Script/rsschool-cv/rsschool-cv-html/icons/rs%20school.png" alt="RS Rsschool logo" width="120" height="80">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="RS Rsschool logo" width="120" height="80">
         </a>
     </footer>
 </div>
